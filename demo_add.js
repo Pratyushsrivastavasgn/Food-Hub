@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Foodpost = require('./models/foodpost');
 
 async function connect(){
-await mongoose.connect('mongodb+srv://user1:pass1@cluster1.ddwffa4.mongodb.net/vihan_foodhub');
+await mongoose.connect('mongodb+srv://user1:pass1@cluster1.ddwffa4.mongodb.net/Pratyush_food-hub');
 
 const coll =
 [

@@ -29,7 +29,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 app.get("/", (req, res) => {
-    res.sendFile("C:\\Users\\intel\\OneDrive\\Desktop\\ongoing projects\\foodhub\\templates\\home.html");
+    res.sendFile("C:\\Users\\intel\\OneDrive\\Desktop\\ongoing projects\\Food-Hub-CN\\templates\\home.html");
 });
 
 app.all(/(.*)/, (req, res, next) => {
