@@ -11,7 +11,7 @@ async function mongo_connect() {
         await mongoose.connect('mongodb+srv://user1:pass1@cluster1.ddwffa4.mongodb.net/pratyush_foodhub');
         console.log("Successfully connected to the server");
     } catch (err) {
-        console.error("Connection error go find yourself which one");
+        console.error("Connection error");
     }
 }
 mongo_connect();
