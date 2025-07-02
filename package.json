@@ -1,21 +1,27 @@
 {
-  "name": "foodhub",
+  "name": "food-hub",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Node.js Express app for food sharing and posting using MongoDB and EJS.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Pratyush Srivastava",
+  "license": "MIT",
   "dependencies": {
-    "ejs-mate": "^4.0.0",
-    "express": "^5.1.0",
-    "joi": "^17.13.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.41.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.17.4",
     "method-override": "^3.0.0",
-    "mongoose": "^8.16.1",
-    "multer": "^2.0.1",
-    "router": "^2.2.0"
+    "mongoose": "^7.6.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
